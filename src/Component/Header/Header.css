@@ -1,0 +1,12 @@
+.header{
+    background-color: rgb(166, 175, 175);
+    margin: 40px 50px;
+    border: 2px solid rgb(208, 206, 206);
+    border-radius: 15px;
+}
+
+.header-design{
+    padding: 10px;
+    text-align: center;
+    color: rgb(248, 231, 209);
+}

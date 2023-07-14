@@ -1,0 +1,51 @@
+.Component{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color: rgb(247, 238, 228);
+    margin: 15px;
+}
+.employeeCard{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.selectedEmployee{
+    margin: 20px;
+}
+
+.selectedEmployee h2{
+    margin-top: -25px;
+    text-align: center;
+    color: rgb(229, 255, 178);
+}
+
+  .card {
+    width: 300px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .card img{
+    width: 70px;
+    height: 60px;
+    border-bottom: 3px solid black;
+    border-radius: 50%;
+  }
+  .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+  .salary,
+  .position {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #888;
+  }
+  

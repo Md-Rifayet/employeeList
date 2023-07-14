@@ -1,0 +1,63 @@
+.dataLoadCard img {
+    width: 100px;
+    height: 90px;
+    border-bottom: 3px solid black;
+    border-radius: 50%;
+}
+
+
+.dataLoadCard{
+   text-align: center;
+   border: 2px solid rgb(203, 201, 201);
+   border-radius: 5px;
+   padding: 5px;
+   background-color:rgb(135, 139, 144);
+   line-height: 10px;
+   color: rgb(245, 229, 209);
+   position: sticky;
+   
+}
+.employeeInfo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.employeeInfo button{
+    width: 100%;
+    margin: 0px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    bottom: 0%;
+}
+
+.employeeInfo button:hover{
+    background-color: rgb(252, 221, 181);
+}
+
+@media (max-width: 768px) {
+    .dataLoadCard img {
+        width: 80px;
+        height: 72px;
+    }
+
+    .dataLoadCard{
+        line-height: 18px;
+    }
+    .employeeInfo button {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .dataLoadCard img {
+        width: 60px;
+        height: 54px;
+    }
+
+    .employeeInfo button {
+        font-size: 10px;
+    }
+}
