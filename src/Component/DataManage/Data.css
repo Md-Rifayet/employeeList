@@ -13,9 +13,12 @@
    padding: 5px;
    background-color:rgb(135, 139, 144);
    line-height: 10px;
-   color: rgb(245, 229, 209);
-   position: sticky;
+   color: rgb(245, 229, 209); 
    
+}
+
+.dataLoadCard{
+    position: sticky; 
 }
 .employeeInfo{
     position: relative;

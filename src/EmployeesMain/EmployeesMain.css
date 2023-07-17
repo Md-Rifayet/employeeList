@@ -8,10 +8,13 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
+    max-height: 500px;
 }
 
 .selectedEmployee{
     margin: 20px;
+    position:sticky;
+    max-height: 500px;
 }
 
 .selectedEmployee h2{
